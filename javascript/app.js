@@ -1,10 +1,7 @@
-let number = "3"
-let number2 = "8"
-let number3 = "11"
-let number4 = "15"
-let number5 = "27"
-let numbers = [number, number2, number3, number4, number5]
-console.log (number + number2 + number3)
+
+let numbers = [3, 8, 11, 15, 27]
+let sum = numbers[0] + numbers[1] + numbers[2]
+console.log (sum)
 
 
 let personsName = [
@@ -26,4 +23,4 @@ let personsName = [
 ]
 console.log(personsName[0].name)
 console.log(`My age is ${personsName[1].age}`)
-// cpnsole.log(`My address is ${personsName[2].address}`)
+// console.log(`My address is ${personsName[2].address}`)
