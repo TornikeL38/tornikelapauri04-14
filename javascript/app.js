@@ -27,3 +27,9 @@ let personsName = [
 console.log(personsName[0].name)
 console.log(`My age is ${personsName[1].age}`)
 // cpnsole.log(`My address is ${personsName[2].address}`)
+
+if(personsName[1].age > 19) {
+console.log('I am teenager'
+}else {
+            console.log('I am adult')
+            }
